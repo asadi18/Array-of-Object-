@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+
+}
+.row-style{
+    padding: 10px;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-color: bisque;
+}
+#tbody-data{
+    background-color: aqua;
+}
+
+table, th,td,tr{
+    border: 1px solid black;
+    padding: 5px 30px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    border-collapse: collapse;
+
+  
+  }
+  .search-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+  #search-input{
+    margin: 10px;
+    background-color: azure;
+    
+  }
+  #btn{
+    color: white;
+    background-color: rgb(15, 128, 5);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  #btn:hover{
+    background-color: rgb(53, 214, 21);
+  }
